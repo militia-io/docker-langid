@@ -1,3 +1,4 @@
+# Version 1.0.0
 FROM ubuntu:14.04
 MAINTAINER Mike Bartoli "michael.bartoli@pomona.edu"
 
@@ -16,6 +17,3 @@ RUN python setup.py build
 RUN python setup.py install
 
 WORKDIR /home/langid.py/langid
-#RUN python langid.py -s
-
-
